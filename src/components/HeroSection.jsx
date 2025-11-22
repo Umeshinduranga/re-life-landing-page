@@ -44,27 +44,6 @@ const HeroSection = () => {
             <span className="font-medium">Evidence based Approach</span>
           </div>
         </div>
-
-        {/* Chat Input */}
-        <div className="max-w-3xl mx-auto animate-fadeIn animation-delay-600">
-          <div className="relative">
-            <input
-              type="text"
-              placeholder="Ask anything...."
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-              className="w-full px-6 py-5 rounded-full bg-white border border-warm-gray/30 text-dark-text placeholder-warm-gray focus:outline-none focus:border-warm-gray/50 shadow-sm"
-            />
-            <div className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center gap-3">
-              <button className="p-2 hover:bg-warm-gray/10 rounded-full transition-colors">
-                <FiSend className="text-xl text-warm-gray" />
-              </button>
-              <button className="p-2 hover:bg-warm-gray/10 rounded-full transition-colors">
-                <HiPaperClip className="text-xl text-warm-gray" />
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
