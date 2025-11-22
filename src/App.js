@@ -4,6 +4,8 @@ import HeroSection from './components/HeroSection';
 import ChatSection from './components/ChatSection';
 import ProblemsSection from './components/ProblemsSection';
 import SolutionSection from './components/SolutionSection';
+import FeaturesSection from './components/FeaturesSection';
+import HowItWorksSection from './components/HowItWorksSection';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <ChatSection />
         <ProblemsSection />
         <SolutionSection />
+        <FeaturesSection />
+        <HowItWorksSection />
       </main>
     </div>
   );
